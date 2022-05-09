@@ -15,7 +15,27 @@ img.verif_img {
   vertical-align: bottom;
 }
 
+/*Featured Brand & Archive List*/
+.column {
+display: flex;
+flex-wrap: wrap;
+margin: 40px;
+justify-content: center;
+}
+
+.small {
+  width: 200px;
+  height: 50%;
+}
+
+.med {
+  width: 200%;
+  height: 200%;
+
+}
+
 /********** Global **********/
+
 
 body {
   background: url(../images/handmadepaper.png);
@@ -23,6 +43,7 @@ body {
 
 h2, h3 {
   margin-bottom: 5px;
+  padding-top: 20px;
 }
 
 ul, ol {
@@ -108,10 +129,22 @@ iframe {
 .wrapper {
   width: 960px;
   margin: 0 auto;
+  padding: auto;
+  width: 60%;
+  justify-content: left;
 }
 
 .shadow {
   box-shadow: 0 3px 10px #333;
+}
+
+.shoes {
+  box-shadow: 0 3px 10px #333;
+  width: 20%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
 }
 
 .milk_text {
@@ -124,6 +157,7 @@ iframe {
 .border_right {
   border-right: 1px dotted #ccc;
   padding-right: 20px;
+
 }
 
 .thumbs_up {
