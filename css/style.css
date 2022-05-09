@@ -16,9 +16,30 @@ img.verif_img {
 }
 
 /*Featured Brand & Archive List*/
+.featured-archive {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 
+}
 
-.footer
+.FA {
+  box-shadow: 0 3px 10px #333;
+  display: inline-block;
+  margin: 10px;
+}
+
+.feat {
+  width: 533px;
+  height: 700px;
+}
+
+.arch {
+  width: 250px;
+  height: 500px;
+  
+}
+
 
 /********** Global **********/
 
@@ -124,6 +145,7 @@ iframe {
   box-shadow: 0 3px 10px #333;
 }
 
+/* DEADLS */
 .deals {
   display: flex;
   flex-wrap: wrap;
@@ -132,10 +154,12 @@ iframe {
 
 .shoes {
   box-shadow: 0 3px 10px #333;
-  width: 20%;
+  width: 250px;
   display: inline-block;
   margin: 10px;
 }
+/* DEADLS */
+
 
 .milk_text {
   font: bold 42px 'Elsie Swash Caps', cursive;
@@ -307,8 +331,6 @@ section a {
 }
 
 /********** Footer **********/
-
-
 
 
 .border_right {
