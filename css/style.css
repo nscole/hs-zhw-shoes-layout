@@ -34,6 +34,8 @@ justify-content: center;
 
 }
 
+.footer
+
 /********** Global **********/
 
 
@@ -138,12 +140,16 @@ iframe {
   box-shadow: 0 3px 10px #333;
 }
 
+.deals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .shoes {
   box-shadow: 0 3px 10px #333;
   width: 20%;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   margin: 10px;
 }
 
@@ -156,7 +162,17 @@ iframe {
 
 .border_right {
   border-right: 1px dotted #ccc;
-  padding-right: 20px;
+  padding-right: 50px;
+}
+
+.footer-column {
+  margin-right: 50px;
+  margin-left: 0px;
+  text-align: left;
+  float: left; 
+
+
+
 
 }
 
