@@ -16,23 +16,7 @@ img.verif_img {
 }
 
 /*Featured Brand & Archive List*/
-.column {
-display: flex;
-flex-wrap: wrap;
-margin: 40px;
-justify-content: center;
-}
 
-.small {
-  width: 200px;
-  height: 50%;
-}
-
-.med {
-  width: 200%;
-  height: 200%;
-
-}
 
 .footer
 
@@ -158,22 +142,6 @@ iframe {
   color: white;
   text-shadow: 0 2px 3px #000;
   margin: 0 0 10px;
-}
-
-.border_right {
-  border-right: 1px dotted #ccc;
-  padding-right: 50px;
-}
-
-.footer-column {
-  margin-right: 50px;
-  margin-left: 0px;
-  text-align: left;
-  float: left; 
-
-
-
-
 }
 
 .thumbs_up {
@@ -340,8 +308,23 @@ section a {
 
 /********** Footer **********/
 
+
+
+
+.border_right {
+  border-right: 1px dotted #ccc;
+  padding-right: 65px;
+}
+
+.footer-column {
+  width: 35%%;
+  margin-right: 20px;
+  display: inline;
+  float: left;
+}
+
 footer {
-  text-align: center;
+  justify-content: left;
   font-size: 10px;
   color: #555;
   padding: 10px 0 20px;
